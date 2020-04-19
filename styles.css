@@ -1,0 +1,341 @@
+/*box-sizing: border-box;*/
+
+@keyframes bajar-subir{
+    0%{transform: translateY(20px)}
+    25%{transform: translateY(0px)}
+    100%{transform: translateY(20px)}
+}
+
+#particles-js{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+/* ------------ GENERAL ------------ */
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none
+}
+
+body{
+    background-color: #C5C2C0;
+    color: black;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+/* ------------ GENERAL ------------ */
+
+
+
+/* ------------ HEADER ------------ */
+.header{
+    background-color: #2f89fc;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header > div{
+    margin: auto;
+}
+
+#headercontenedor{
+    margin: auto;
+}
+
+.logoTitle{
+    height: 15vw;
+    margin-bottom: 1vw;
+}
+
+#gridtitulo{
+    line-height: 6vw;
+}
+
+.title{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 8vw;
+}
+
+.subTitle{
+    font-family: 'NTR', sans-serif;
+    font-size: 4vw;
+    margin-bottom: -4vw;
+}
+
+#flechas{
+    height: 3vw;
+    /*animation: bajar-subir 1s ease infinite;*/
+}
+/* ------------ HEADER ------------ */
+
+
+
+/* ------------ NAV ------------ */
+.nav{
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    display: block;
+    z-index: 1; /* con este se manteine siempre adelante */
+}
+
+.nav ul{
+    background-color: #2f89fc;
+    height: 5%;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.alined{
+    padding: 0 0 0 5vw;
+}
+
+.nav a{
+    color: black;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+/* ------------ NAV ------------ */
+
+
+
+/* ------------ REDES AL COSTADO ------------ */
+/*#redes{
+    position: fixed;
+    left: 10px;
+    top: 35%;
+    display: inline-block;
+}*/
+/* ------------ REDES AL COSTADO------------ */
+
+
+
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+.contenido{
+    position: relative;
+
+}
+.contenido h3{
+    font-size: 2rem;
+}
+
+.contenido > div{
+    background-color: #d88d19;
+    box-shadow: 0px 0px 100px black;
+    width: 80%;
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    height: 95%
+}
+
+#ocultar{
+    display: none;
+}
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+
+
+
+/* ------------ HOME ------------ */
+#subgridHomeTitulo{
+    font-size: 35px; 
+    margin-bottom: -1vw
+}
+
+#subgridHomeContenido{
+    box-shadow: 0px 0px 50px black;
+    width: 95%;
+    height: 90%;
+    margin: auto;
+}
+/* ------------ HOME ------------ */
+
+
+
+/* ------------ SOBRE NOSOTROS ------------ */
+#subgridSobreNosotrosTitulo{
+    font-size: 35px; 
+    margin-bottom: -1vw
+}
+
+#subgridSobreNosotrosContenido{
+    box-shadow: 0px 0px 50px black;
+    width: 95%;
+    height: 90%;
+    margin: auto;
+}
+/* ------------ SOBRE NOSOTROS ------------ */
+
+
+
+/* ------------ SERVICIOS ------------ */
+
+/*
+#PcBackground, #RedesBackground, #CiberBackground, #AlarmBackground, #WebBackground{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/*#PcBackground{
+    background-image: url(imagenes/desktop1.jpg);
+    filter:grayscale(100%);
+}
+
+#RedesBackground{
+    background-image: url(imagenes/redesysistemas1.jpg);
+    filter:grayscale(100%);
+}
+
+#CiberBackground{
+    background-image: url(imagenes/ciberseguridad.jpg);
+    filter:grayscale(100%);
+}
+
+#AlarmBackground{
+    background-image: url(imagenes/alarmascctv.jpg);
+    filter:grayscale(100%);
+}
+
+#WebBackground{
+    background-image: url(imagenes/diseñoweb.jpg);
+    filter:grayscale(100%);
+}
+
+#PcBackground:hover{
+    filter:grayscale(0%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#RedesBackground:hover{
+    filter:grayscale(0%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#CiberBackground:hover{
+    filter:grayscale(0%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#AlarmBackground:hover{
+    filter:grayscale(0%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#WebBackground:hover{
+    filter:grayscale(0%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#sectionServicios a{
+    color: white;
+    font-size: 3rem;
+}
+
+#sectionServicios{
+    align-content: center;
+}
+*/
+#PcBackground, #RedesBackground, #CiberBackground, #AlarmBackground, #WebBackground{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#PcBackground{
+    background-image: url(imagenes/desktop2.jpg);
+}
+
+#RedesBackground{
+    background-image: url(imagenes/redesysistemas6.jpg);
+}
+
+#CiberBackground{
+    background-image: url(imagenes/ciberseguridad.jpg);
+}
+
+#AlarmBackground{
+    background-image: url(imagenes/alarmascctv.jpg);
+}
+
+#WebBackground{
+    background-image: url(imagenes/diseñoweb.jpg);
+}
+#sectionServicios a{
+    color: white;
+    font-size: 2.2rem;
+}
+/* ------------ SERVICIOS ------------ */
+
+
+
+/* ------------ CONTACTO ------------ */
+#sectionContacto{
+    height: %
+}
+#subgridContactoTitulo{
+    font-size: 35px; 
+}
+
+.subgridContactoContenido{
+    box-shadow: 0px 0px 50px black;
+    width: 95%;
+    height: 90%;
+    margin: auto;
+}
+
+#subgridContactoFooter{
+    background: black;
+    text-align: center;
+    font-size: 1.5rem
+}
+/* ------------ CONTACTO ------------ */
+
+
+/* ------------ FOOTER ------------ */
+/*footer{
+    background-color: black;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+footer a{
+    color: white;
+    vertical-align: middle;
+}
+footer li{
+    display: inline-block;
+
+}
+.mapaalined{
+    vertical-align: middle;
+}*/
+/* ------------ FOOTER ------------ */
+

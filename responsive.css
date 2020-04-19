@@ -1,0 +1,453 @@
+/* ---------------------- MEDIAS ---------------------- 
+1200px  1024px  768px  600px   480px  320px
+75em    64em    48em   37.5em  30em   20em
+ ---------------------- MEDIAS ---------------------- */
+
+@media only screen and (max-width: 75em){ /* ------------ 1200px 75em ------------ */
+/* ------------ GENERAL ------------ */
+/* ------------ GENERAL ------------ */
+
+
+
+/* ------------ HEADER ------------ */
+/* ------------ HEADER ------------ */
+
+
+
+/* ------------ NAV ------------ */
+/* ------------ NAV ------------ */
+
+
+
+/* ------------ REDES AL COSTADO ------------ */
+/* ------------ REDES AL COSTADO------------ */
+
+
+
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+
+
+
+/* ------------ HOME ------------ */
+/* ------------ HOME ------------ */
+
+
+
+/* ------------ SOBRE NOSOTROS ------------ */
+/* ------------ SOBRE NOSOTROS ------------ */
+
+
+
+/* ------------ SERVICIOS ------------ */
+    #sectionServicios a{
+        font-size: 1.5rem;
+    }
+/* ------------ SERVICIOS ------------ */
+
+
+
+/* ------------ CONTACTO ------------ */
+/* ------------ CONTACTO ------------ */
+}
+
+@media only screen and (max-width: 64em){ /* ------------- 1024px 64em ------------ */
+/* ------------ GENERAL ------------ */
+
+/* ------------ GENERAL ------------ */
+
+
+
+/* ------------ HEADER ------------ */
+    .logoTitle{
+        height: 17vw;
+        margin-bottom: 2vw;
+    }
+    #gridtitulo{
+        line-height: 8vw;
+    }
+    .title{
+        font-size: 10vw;
+    }
+    .subTitle{
+        font-size: 8vw;
+        margin-bottom: -6vw;
+    }
+/* ------------ HEADER ------------ */
+
+
+
+/* ------------ NAV ------------ */
+    .nav a{
+        font-size: 1.3em;
+    }
+/* ------------ NAV ------------ */
+
+
+
+/* ------------ REDES AL COSTADO ------------ */
+/* ------------ REDES AL COSTADO------------ */
+
+
+
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+
+
+
+/* ------------ HOME ------------ */
+/* ------------ HOME ------------ */
+
+
+
+/* ------------ SOBRE NOSOTROS ------------ */
+/* ------------ SOBRE NOSOTROS ------------ */
+
+
+
+/* ------------ SERVICIOS ------------ */
+/* ------------ SERVICIOS ------------ */
+
+
+
+/* ------------ CONTACTO ------------ */
+
+/* ------------ CONTACTO ------------ */
+}
+
+@media only screen and (max-width: 48em){ /* ------------ 768px 48em ------------ */
+/* ------------ GENERAL ------------ */
+
+/* ------------ GENERAL ------------ */
+
+
+
+/* ------------ HEADER ------------ */
+    .logoTitle{
+        height: 27vw;
+        margin-bottom: 2vw;
+    }
+    #gridtitulo{
+        line-height: 10vw;
+    }
+    .title{
+        font-size: 12vw;
+    }
+    .subTitle{
+        font-size: 8vw;
+        margin-bottom: -8vw;
+    }
+    #flechas{
+        height: 6vw;
+    }
+/* ------------ HEADER ------------ */
+
+
+
+/* ------------ NAV ------------ */
+    .nav a{
+        font-size: 1.8em;
+    }
+/* ------------ NAV ------------ */
+
+
+
+/* ------------ REDES AL COSTADO ------------ */
+
+/* ------------ REDES AL COSTADO------------ */
+
+
+
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+
+
+
+/* ------------ HOME ------------ */
+/* ------------ HOME ------------ */
+
+
+
+/* ------------ SOBRE NOSOTROS ------------ */
+/* ------------ SOBRE NOSOTROS ------------ */
+
+
+
+/* ------------ SERVICIOS ------------ */
+    #sectionServicios a{
+        font-size: 2.2rem;
+    }
+/* ------------ SERVICIOS ------------ */
+
+
+
+/* ------------ CONTACTO ------------ */
+/* ------------ CONTACTO ------------ */
+}
+
+
+@media only screen and (max-width: 37.5em){ /* ---------- 600px 37.5em ---------- */
+/* ------------ GENERAL ------------ */
+
+/* ------------ GENERAL ------------ */
+
+
+
+/* ------------ HEADER ------------ */
+
+/* ------------ HEADER ------------ */
+
+
+
+/* ------------ NAV ------------ */
+
+/* ------------ NAV ------------ */
+
+
+
+/* ------------ REDES AL COSTADO ------------ */
+
+/* ------------ REDES AL COSTADO------------ */
+
+
+
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+
+
+
+/* ------------ HOME ------------ */
+
+/* ------------ HOME ------------ */
+
+
+
+/* ------------ SOBRE NOSOTROS ------------ */
+
+/* ------------ SOBRE NOSOTROS ------------ */
+
+
+
+/* ------------ SERVICIOS ------------ */
+/* ------------ SERVICIOS ------------ */
+
+
+
+/* ------------ CONTACTO ------------ */
+/* ------------ CONTACTO ------------ */
+}
+    
+    
+
+@media only screen and (max-width: 30em){ /* ------------ 480px 30em ------------ */
+/* ------------ GENERAL ------------ */
+
+/* ------------ GENERAL ------------ */
+
+
+
+/* ------------ HEADER ------------ */
+    .logoTitle{
+        height: 35vw;
+        margin-bottom: 2vw;
+    }
+    #gridtitulo{
+        line-height: 9vw;
+    }
+    .title{
+        font-size: 11vw;
+    }
+    .subTitle{
+        font-size: 7vw;
+        margin-bottom: -8vw;
+    }
+/* ------------ HEADER ------------ */
+
+
+
+/* ------------ NAV ------------ */
+    .nav a{
+        font-size: 1.1em;
+    }
+/* ------------ NAV ------------ */
+
+
+
+/* ------------ REDES AL COSTADO ------------ */
+
+/* ------------ REDES AL COSTADO------------ */
+
+
+
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+    .contenido h3{
+        font-size: 1.6rem;
+    }
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+
+
+
+/* ------------ HOME ------------ */
+/* ------------ HOME ------------ */
+
+
+
+/* ------------ SOBRE NOSOTROS ------------ */
+/* ------------ SOBRE NOSOTROS ------------ */
+
+
+
+/* ------------ SERVICIOS ------------ */
+    #sectionServicios a{
+        font-size: 1.4rem;
+    }
+/* ------------ SERVICIOS ------------ */
+
+
+
+/* ------------ CONTACTO ------------ */
+/* ------------ CONTACTO ------------ */
+}
+
+@media only screen and (max-width: 20em){ /* ------------ 320px 20em ------------ */
+/* ------------ GENERAL ------------ */
+
+/* ------------ GENERAL ------------ */
+
+
+
+/* ------------ HEADER ------------ */
+    .logoTitle{
+        height: 35vw;
+        margin-bottom: 2vw;
+    }
+    #gridtitulo{
+        line-height: 9vw;
+    }
+    .title{
+        font-size: 11vw;
+    }
+    .subTitle{
+        font-size: 7vw;
+        margin-bottom: -8vw;
+    }
+/* ------------ HEADER ------------ */
+
+
+
+/* ------------ NAV ------------ */
+    .nav a{
+        font-size: 0.8em;
+    }
+/* ------------ NAV ------------ */
+
+
+
+/* ------------ REDES AL COSTADO ------------ */
+
+/* ------------ REDES AL COSTADO------------ */
+
+
+
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+    .contenido h3{
+        font-size: 1rem;
+    }
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+
+
+
+/* ------------ HOME ------------ */
+/* ------------ HOME ------------ */
+
+
+
+/* ------------ SOBRE NOSOTROS ------------ */
+/* ------------ SOBRE NOSOTROS ------------ */
+
+
+
+/* ------------ SERVICIOS ------------ */
+    #sectionServicios a{
+        font-size: 0.9rem;
+    }
+/* ------------ SERVICIOS ------------ */
+
+
+
+
+/* ------------ CONTACTO ------------ */
+/* ------------ CONTACTO ------------ */
+}
+
+@media only screen and (max-width: 240px){/* ------------ 240px ------------ */
+/* ------------ GENERAL ------------ */
+
+/* ------------ GENERAL ------------ */
+
+
+
+/* ------------ HEADER ------------ */
+    .logoTitle{
+        height: 35vw;
+        margin-bottom: 2vw;
+    }
+    #gridtitulo{
+        line-height: 9vw;
+    }
+    .title{
+        font-size: 11vw;
+    }
+    .subTitle{
+        font-size: 7vw;
+        margin-bottom: -8vw;
+    }
+/* ------------ HEADER ------------ */
+
+
+
+/* ------------ NAV ------------ */
+    .nav a{
+        font-size: 0.6em;
+    }
+/* ------------ NAV ------------ */
+
+
+
+/* ------------ REDES AL COSTADO ------------ */
+
+/* ------------ REDES AL COSTADO------------ */
+
+
+
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+    .contenido h3{
+        font-size: 0.8rem;
+    }
+/* ------------ CONTENIDO DE LA PAGINA ------------ */
+
+
+
+/* ------------ HOME ------------ */
+/* ------------ HOME ------------ */
+
+
+
+/* ------------ SOBRE NOSOTROS ------------ */
+/* ------------ SOBRE NOSOTROS ------------ */
+
+
+
+/* ------------ SERVICIOS ------------ */
+    #sectionServicios a{
+        font-size: 0.5rem;
+    }
+/* ------------ SERVICIOS ------------ */
+
+
+
+/* ------------ CONTACTO ------------ */
+/* ------------ CONTACTO ------------ */
+}
