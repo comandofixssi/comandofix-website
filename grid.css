@@ -1,0 +1,151 @@
+/* ------------ GRID HEADER ------------ */
+.header{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    
+    grid-template-areas: "gridrelleno1"
+                         "gridlogo"
+                         "gridtitulo"
+                         "gridflechas"
+                         "gridrelleno2"
+}
+
+#gridlogo{
+    grid-area: gridlogo;
+}
+
+#gridtitulo{
+    grid-area: gridtitulo;
+}
+
+#gridflechas{
+    grid-area: gridflechas;
+}
+
+.gridrelleno1{
+    grid-area: gridrelleno1;
+}
+.gridrelleno2{
+    grid-area: gridrelleno2;
+}
+.gridrelleno3{
+    grid-area: gridrelleno3;
+}
+.gridrelleno3{
+    grid-area: gridrelleno3;
+}
+/* ------------ GRID HEADER ------------ */
+
+
+
+/* ------------ GRID HOME ------------ */
+.gridHome{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+}
+.subgridHome{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 95%;
+}
+/* ------------ GRID HOME ------------ */
+
+
+
+/* ------------ GRID SOBRE NOSOTROS ------------ */
+.gridSobreNosotros{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+}
+.subgridSobreNosotros{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 95%;
+}
+/* ------------ GRID SOBRE NOSOTROS ------------ */
+
+
+
+/* ------------ GRID SERVICIOS ------------ */
+.gridServicios{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.PcBackground{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.PcBackground a{
+    grid-row: 2
+}
+.RedesBackground{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.RedesBackground a{
+    grid-row: 2
+}
+.CiberBackground{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.CiberBackground a{
+    grid-row: 2
+}
+.AlarmBackground{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.AlarmBackground a{
+    grid-row: 2
+}
+.WebBackground{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.WebBackground a{
+    grid-row: 2
+}
+/* ------------ GRID SERVICIOS ------------ */
+
+
+/* ------------ GRID CONTACTO ------------ */ 
+.gridContacto{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+}
+.subgridContacto{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 95%;
+}
+.subgridContactoContenido{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+}
+
+/*.subgridContacto{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2vw 1fr;
+}*/
+
+/*
+#subgridContactoContenido{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ; 
+}
+*/
+/* ------------ GRID CONTACTO ------------ */
